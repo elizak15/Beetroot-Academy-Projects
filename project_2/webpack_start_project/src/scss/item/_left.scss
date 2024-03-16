@@ -1,0 +1,124 @@
+.about-item{
+    color: #6A6A6A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.024px;
+}
+.item{
+    &__flex{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    &__title{
+        color: var(--item-title);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 140%;
+        letter-spacing: 0.03px;
+    }
+    &__img {
+        width: 100%;
+    }
+    &__price{
+        font-size: 16px;
+        font-weight: 500;
+        line-height:  256.25%;
+        letter-spacing: 0.048px;
+    }
+    &__add-fav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: center;
+    }
+    &__add-remove{
+        display: flex;
+        align-items: center;
+        flex-basis: 100%;
+        gap: 16px;
+    }
+    &__button {
+        border-radius: 4px;
+        border: 1px solid var(--light-primary-shades-50-p, rgba(25, 118, 210, 0.50));
+    }
+    &__choice{
+        display: flex;
+        justify-content:flex-start;
+        gap: 7px;
+    }
+    &__ul{
+        color: #081F33;
+    }
+    &__fabre-subtitle {
+        color: var(--grau);
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 160%;
+        letter-spacing: 0.03px;
+         text-decoration-line: underline;
+    }
+    &__li{
+        color: #000;
+    }
+    &__sofa{
+        color: #000;
+    }
+    &__text{
+        margin: 5px 0;
+    }
+    &__abmessungen{
+        color: #6A6A6A;
+        font-size: 14px;
+    }
+    &__span {
+        color: var(--red)
+    }
+}
+.info-title {
+    border-top: 1px solid #878787;
+    padding: 25px 0 25px 20px;
+    color: #434343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0.024px;
+    border-bottom: 1px solid #878787;
+    &:nth-child(3){
+        border-top: 0;
+    }
+}
+.info-title:hover{
+    background: var(--l-blau);
+}
+
+.info-text1 {
+    margin: 10px 0;
+}
+.item__img img{
+    width: 100%;
+}
+.item__button button {
+    color: var(--item-btn);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 173.333%;
+    letter-spacing: 0.46px;
+    text-transform: uppercase;
+    margin: 10px 40px 10px 40px ;
+
+}
+.item__li li{
+    list-style:disc;
+}
+.item-li__title{
+    color: #081F33;
+}
+.black{
+    color: black;
+}
+.add-fav{
+    display: flex;
+    flex-wrap: wrap;
+}

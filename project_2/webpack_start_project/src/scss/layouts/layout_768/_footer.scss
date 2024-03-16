@@ -1,0 +1,27 @@
+.footer {
+    &__grid {
+        grid-template-areas:
+            'logo categ categ flags'
+            'logo categ categ flags'
+            'social social social social ';
+    }
+    &__internation {
+        align-self:flex-start;
+    }
+    &__logo {
+        padding-top: 0;
+    }
+} 
+.categ {
+    &__item ul {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    &__title{
+        margin-left: 0;
+    }
+}
+ul {
+    padding: 0;
+    margin: 0;
+}

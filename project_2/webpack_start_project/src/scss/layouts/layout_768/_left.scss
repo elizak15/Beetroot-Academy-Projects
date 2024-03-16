@@ -1,0 +1,61 @@
+.item{
+    &__flex{
+        display: grid;
+        gap: 10px;
+        grid-template-areas: 'img title' 
+                             'img choice'
+                             'img fabre'
+                             'img li1'
+                             'img price'
+                             'img add-fav'
+                             'li2 info'
+                             'text1 info'
+                             'li3 info'
+                             'text2 info'
+                             'text3 info'
+                             'text4 info';
+    }
+    &__title{
+        grid-area: title;
+    }
+    &__img{
+        grid-area: img;
+    }
+    &__price{
+        grid-area: price;
+    }
+    &__add-fav {
+        grid-area: add-fav;
+    }
+    &__choice{
+        grid-area: choice;
+    }    
+    &__li1{
+        grid-area: li1;
+        margin: 15px;
+    }
+    &__fabre{
+        grid-area: fabre;
+    }
+    &__info{
+        grid-area: info;
+    }
+    &__li2{
+        grid-area: li2;
+    }
+    &__li3 {
+        grid-area: li3;
+    }
+    &__text1{
+        grid-area: text1;
+    }
+    &__text2 {
+        grid-area: text2;
+    }
+    &__text3 {
+        grid-area: text3;
+    }
+    &__text4 {
+         grid-area: text4;
+    }
+    }

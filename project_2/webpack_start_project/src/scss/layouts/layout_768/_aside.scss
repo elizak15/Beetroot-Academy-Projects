@@ -1,0 +1,17 @@
+.sale{
+    font-size: 40px;
+}
+.aside{
+    padding-left: 80px;
+    text-align: start;
+    &__text{
+        width: 550px;
+        font-size: 71px;
+    }
+    &__btn{
+        width: 30%;
+        align-self:flex-start;
+    }
+}
+.btn {
+    width: 100%;}
