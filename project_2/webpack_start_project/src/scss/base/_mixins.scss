@@ -1,0 +1,20 @@
+@mixin e($element) {
+    &__#{$element} {
+      @content;
+    }
+}
+@mixin m($modifier) {
+    &_#{$modifier} {
+      @content;
+    }
+}
+@mixin before($word, $left, $top) {
+    &::before {
+      content: $word;
+      font-family: $fontFamily-inf;
+      position: absolute;
+      top: $top;
+      left: $left;
+      @content;
+    }
+}

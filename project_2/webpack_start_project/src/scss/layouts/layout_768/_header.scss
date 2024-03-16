@@ -1,0 +1,51 @@
+.header{
+    &__nav-desktop {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    }
+    &__search {
+        order: 1;
+        width: 30%;
+    }
+    &__logo {
+        flex-grow: 1;
+    }
+    &__nav {
+        gap: 20px;
+    }
+
+}
+.nav-desktop {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    letter-spacing: 0.63px;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+}
+.nav-desktop-li{
+    color:#343434;
+}
+ .nav-desktop-li:hover {
+     color: #055DA7;
+ }
+
+.nav {
+    &__cart {
+        order: 2;
+    }
+    &__fav {
+        order: 3;
+    }
+    &__log {
+        order: 4;
+    }
+
+}
+
+
+
+
+
